@@ -1,0 +1,23 @@
+<h1>Has sido redireccionado a: {{.Titulo}}</h1>
+
+<p>¿Qué deseas hacer? <br> 
+	[1] -- Insertar <br>
+	[2] -- Mostrar <br>
+	[3] -- Actualizar <br>
+	[4] -- Eliminar <br>
+	----->	</p><br>
+
+
+<form action="/election/Users" method="POST">
+	<div><input type="text" name="body"></div><br>
+	<div><input type="submit" value="Elegir"></div>
+</form>
+
+
+<p>¿Qué deseas hacer? <br> 
+
+		<a href="/election/Users?value=1" >Insertar</a><br> 
+		<a href="/election/Users?value=2" >Mostrar</a><br>
+		<a href="/election/Users?value=3" >Actualizar</a><br>
+		<a href="/election/Users?value=4" >Eliminar</a> </p>
+	

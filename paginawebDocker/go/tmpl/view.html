@@ -1,0 +1,10 @@
+<h1>{{.Titulo}}</h1>
+<p>[<a href="/edit/{{.Titulo}}">edit</a>]</p>
+<div><textarea name="body" rows="20" cols="80" readonly="readonly">{{range .User}}
+{{printf "%s" .}} 
+{{end}}
+
+
+</textarea></div><br>
+
+<p>[<a href="/">Menu</a>]</p>
